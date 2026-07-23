@@ -251,14 +251,14 @@ input,select,textarea{font-family:inherit;font-size:14px;color:var(--ink)}
 const MARK="__MARK__";
 /* ---------- Org & personas ---------- */
 const PERSONAS=[
- {id:'budi',name:'Budi Santoso',role:'staff',title:'Staff Operasional',dept:'Operasional',init:'BS',managerId:'sari'},
- {id:'citra',name:'Citra Dewanti',role:'staff',title:'Staff Marketing',dept:'Marketing',init:'CD',managerId:'bagus'},
- {id:'sari',name:'Sari Melati',role:'manager',title:'Manager Operasional',dept:'Operasional',init:'SM',managerId:null},
- {id:'bagus',name:'Bagus Prakoso',role:'manager',title:'Manager Marketing',dept:'Marketing',init:'BP',managerId:null},
- {id:'andi',name:'Andi Pratama',role:'it_officer',title:'IT Support Officer',dept:'IT',init:'AP',managerId:null},
- {id:'dewi',name:'Dewi Anggraini',role:'hcga_admin',title:'Admin HCGA',dept:'HCGA',init:'DA',managerId:null},
- {id:'rina',name:'Rina Kusuma',role:'finance_staff',title:'Staf Finance',dept:'Finance',init:'RK',managerId:null},
- {id:'hendra',name:'Hendra Wijaya',role:'finance_head',title:'Head Finance',dept:'Finance',init:'HW',managerId:null},
+ {id:'budi',name:'Ardhini',role:'staff',title:'Staff Operasional',dept:'Operasional',init:'BS',managerId:'sari'},
+ {id:'citra',name:'Akmal Haekal',role:'staff',title:'Staff Marketing',dept:'Marketing',init:'CD',managerId:'bagus'},
+ {id:'sari',name:'Elizabeth',role:'manager',title:'Manager Operasional',dept:'Operasional',init:'SM',managerId:null},
+ {id:'bagus',name:'Krisnayanti Lubis',role:'manager',title:'Manager Marketing',dept:'Marketing',init:'BP',managerId:null},
+ {id:'andi',name:'Fadhil Anhar',role:'it_officer',title:'Technology & Digital Transformation',dept:'IT',init:'AP',managerId:null},
+ {id:'dewi',name:'Salma Wisesa',role:'hcga_admin',title:'Admin HCGA',dept:'HCGA',init:'DA',managerId:null},
+ {id:'rina',name:'Yudhistira Mahendra',role:'finance_staff',title:'Staf Finance',dept:'Finance',init:'RK',managerId:null},
+ {id:'hendra',name:'Carlos Arifson',role:'finance_head',title:'Head Finance',dept:'Finance',init:'HW',managerId:null},
 ];
 const P=id=>PERSONAS.find(x=>x.id===id);
 const managerOf=id=>{const p=P(id);return p?p.managerId:null;};
